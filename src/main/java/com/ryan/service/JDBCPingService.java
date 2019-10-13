@@ -21,7 +21,7 @@ public class JDBCPingService
 		try
 		{
 			Statement st = con.createStatement();
-			ResultSet rs = st.executeQuery("SELECT * FROM Product");
+			ResultSet rs = st.executeQuery("SELECT * FROM Furniture");
 			ResultSetMetaData rsmd = rs.getMetaData();
 			
 			while (rs.next())
@@ -32,8 +32,8 @@ public class JDBCPingService
 				content += (rs.getString(2) + " ");
 				content += (rs.getString(3) + " ");
 				content += (rs.getString(4) + " ");
-				content += (rs.getString(5) + " ");
-				content += (rs.getString(6) + "\n\n");
+				//content += (rs.getString(5) + " ");
+				//content += (rs.getString(6) + "\n\n");
 			}
 		}
 		catch (Exception e)

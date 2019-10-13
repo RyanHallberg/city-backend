@@ -17,7 +17,7 @@ public class JDBCConnectionProducer
 		{
 			Class.forName("net.ucanaccess.jdbc.UcanaccessDriver").newInstance();
 			
-			String path = "C:\\Users\\Ryan\\Documents\\productdb.accdb";
+			String path = "C:\\Users\\Lee\\Desktop\\Fall 2019\\Capstone\\Capstone.accdb";
 			String url = "jdbc:ucanaccess://" + path;
 			
 			con = DriverManager.getConnection(url);
