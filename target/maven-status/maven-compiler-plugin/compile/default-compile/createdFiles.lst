@@ -1,0 +1,8 @@
+com\airhacks\ping\boundary\PingResource.class
+com\ryan\service\JDBCPingService.class
+com\airhacks\JAXRSConfiguration.class
+com\airhacks\ping\boundary\JDBCPingResource.class
+DBTest.class
+com\ryan\service\ResultSetConverter.class
+com\ryan\entity\Product.class
+com\ryan\service\JDBCConnectionProducer.class
